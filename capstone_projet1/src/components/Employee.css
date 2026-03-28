@@ -1,0 +1,58 @@
+.Border {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #141414;
+    border-radius: 10px;
+    width: 50%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur;
+}
+
+.Border h1 {
+    text-align: center;
+    color: rgb(18, 18, 22);
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+}
+
+.Border input {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    background-color: transparent;
+   
+}
+::placeholder {
+    color: #f1e9e9;
+    font-size: 0.875em;
+    opacity: 50%;
+
+}
+
+button {
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 5px 20px;
+    transition: 0.5s;
+    color: rgb(241, 233, 233);
+    background-color: #141414;
+    background: #111827;;
+    opacity: 90%; 
+}
+button:hover{
+     background: #1f2937;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
